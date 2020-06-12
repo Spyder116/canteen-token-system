@@ -138,6 +138,10 @@ btnreset.grid(row=7, column=2)
 btnexit=Button(f1,padx=16,pady=8, bd=10 ,fg="black",font=('ariel' ,16,'bold'),width=10, text="EXIT", bg="powder blue",command=qexit)
 btnexit.grid(row=7, column=3)
 
+name=Label(f1,font=('aria',30,'bold'),text="-by Saiteja Damaraju",fg="black",bd=10,anchor="w")
+name.grid(row=8,columnspan=2)
+
+
 def price():
     roo = Tk()
     roo.geometry("600x400+0+0")
